@@ -8,4 +8,21 @@
  --white: #ffffff;
  --black: #000000;
 }
+.header {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    width: 768;
+    padding: 1px;   
+}
+.header .title {
+  background-color: #099d8d;
+  height: 60px;
+  font-size: 20px;
+}
+.header .nav {
+    background-color: #14d9c4;
+    height: 45px;
+    font-size: 18x; 
+}
 
