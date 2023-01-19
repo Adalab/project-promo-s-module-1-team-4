@@ -9,3 +9,43 @@
  --black: #000000;
 }
 
+.body{
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.adalabers{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  
+
+}
+
+.bio-image-container{
+
+      /*width: 56.25vw;*/
+      width: 180px;
+      height: 180px;
+      
+      border: solid 5px lightgrey;
+      border-radius: 20px;
+
+}
+
+.bio-image{
+       height: 100%;
+       width: 100%;
+       border-radius: 20px;
+       background-image: contain;
+}
+
+.bio-text{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ 
