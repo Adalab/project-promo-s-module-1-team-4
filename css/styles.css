@@ -66,3 +66,18 @@
     align-items: center;
  }
  
+ .title-team {
+    color: var(--light-green);
+    text-align: center;
+ }
+
+ .title-article {
+    color: var(--light-green);
+    text-align: center;
+ }
+
+ .section-two {
+    background-color: var(--background-grey);
+    border-top-style:dashed;
+    border-radius:10pc;
+ }
