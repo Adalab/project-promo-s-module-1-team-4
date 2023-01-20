@@ -84,5 +84,5 @@
  .section-two {
     background-color: var(--background-grey);
     border-top-style:dashed;
-    border-radius:10pc;
+    border-top-left-radius:10pc;
  }
