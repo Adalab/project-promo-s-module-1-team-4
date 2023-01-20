@@ -57,18 +57,41 @@
 
 }
 
-.bio-text{
-
-    display:flex;
+.bio-text {
+    display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+   
+}
+
+.bio-p{
+
+    
     font-family: var(--font-p);
+    padding: 30px 15px;
+    justify-content: center;
+    line-height: 1.5;
+    
     
  }
+
+ .bio-h{
+
+    
+    font-family: var(--font-p);
+    padding: 30px 15px;
+    justify-content: center;
+    line-height: 1.5;
+    
+    
+ }
+ 
+
 
  .icons{
     display: flex;
     flex-direction: row;
+    list-style: none;
  }
  
  .title-team {
