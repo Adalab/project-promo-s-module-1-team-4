@@ -10,10 +10,10 @@
 }
 .header {
     display: flex;
-    flex-direction: column;
+    
+    width: 768px;
     color: #ffffff;
-    width: 768;
-    padding: 1px;   
+       
 }
 .header .title {
   background-color: #099d8d;
