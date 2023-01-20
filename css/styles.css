@@ -11,22 +11,35 @@
  --font-h: 'Rubik', sans-serif;
  
 }
-.header {
-    display: flex;
+.header { 
+    width: 100%;
+    color: var(--white);
+    justify-content: center;
+    text-align: center;
     
-    width: 768px;
-    color: #ffffff;
-       
 }
 .header .title {
-  background-color: #099d8d;
+  background-color: var(--dark-green);
   height: 60px;
-  font-size: 20px;
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
+
 .header .nav {
-    background-color: #14d9c4;
+    background-color: var(--light-green);
     height: 45px;
-    font-size: 18x; 
+    font-size: 15px; 
+    text-align: end;
+    padding: 10px;
+}
+
+ .menu {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around; 
+   list-style: none;
 }
 
 .body{
