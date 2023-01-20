@@ -7,6 +7,9 @@
  --background-grey: #f1f1f1; 
  --white: #ffffff;
  --black: #000000;
+ --font-p: 'Open Sans', sans-serif;
+ --font-h: 'Rubik', sans-serif;
+ 
 }
 .header {
     
@@ -25,10 +28,13 @@
     background-color: var(--light-green);
     height: 45px;
     font-size: 15x; 
-    display: flex;
+   display: flex;
+   justify-content: space-between;
 }
- .manu {
-    display: block;
+ .menu {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
 }
 
 .body{
@@ -46,22 +52,17 @@
 
 }
 
-.bio-image-container{
-
-      /*width: 56.25vw;*/
-      width: 180px;
-      height: 180px;
-      
-      border: solid 5px lightgrey;
-      border-radius: 20px;
-
-}
 
 .bio-image{
-       height: 100%;
-       width: 100%;
-       border-radius: 20px;
-       background-image: contain;
+       
+    width: 56.25vw;
+    height: 56.25vw;
+    border-radius: 20px;
+    background-image: contain;
+    border: solid 5px lightgrey;
+    border-radius: 20px;
+    object-fit: cover;
+
 }
 
 .bio-text{
@@ -69,5 +70,12 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    font-family: var(--font-p);
+    
+ }
+
+ .icons{
+    display: flex;
+    flex-direction: row;
  }
  
