@@ -11,30 +11,35 @@
  --font-h: 'Rubik', sans-serif;
  
 }
-.header {
-    
-    width: 768px;
+.header { 
+    width: 100%;
     color: var(--white);
+    justify-content: center;
+    text-align: center;
     
 }
 .header .title {
   background-color: var(--dark-green);
   height: 60px;
   font-size: 16px;
-  
-  
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
 }
+
 .header .nav {
     background-color: var(--light-green);
     height: 45px;
-    font-size: 15x; 
-   display: flex;
-   justify-content: space-between;
+    font-size: 15px; 
+    text-align: end;
+    padding: 10px;
 }
+
  .menu {
    display: flex;
    flex-direction: row;
-   justify-content: center;
+   justify-content: space-around; 
+   list-style: none;
 }
 
 .body{
