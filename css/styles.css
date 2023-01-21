@@ -70,42 +70,62 @@
 
 }
 
+.text-section {
+    color: var(--light-green);
+    text-align: center;
+    font-family: var(--font-h);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.88;
+    font-style: normal;
+    margin: 30px 15px;
+ }
+
 .bio-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: var(--font-p);
+    padding: 30px 15px;
+    text-align: center;
+    line-height: 1.5;
    
 }
 
-.bio-p{
-
-    
-    font-family: var(--font-p);
-    padding: 30px 15px;
-    justify-content: center;
-    line-height: 1.5;
-    
-    
- }
-
  .bio-h{
 
-    
-    font-family: var(--font-p);
-    padding: 30px 15px;
-    justify-content: center;
-    line-height: 1.5;
-    
+    font-size: 2rem;
+    line-height: 2.25;
+
+  
     
  }
- 
+
+ .bio-p{
+
+    font-size: 1.6 rem;
+   
+     }
 
 
  .icons{
     display: flex;
     flex-direction: row;
+    padding: 15px 110px 15px 110px;
     list-style: none;
+    justify-content: space-between;
+    scale: 2;
+    color: var(--dark-green);
+    
  }
+
+ .icon{
+   /* display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;*/
+    scale: 2;
+
+
+ }
+ 
  
  .title-team {
     color: var(--light-green);
