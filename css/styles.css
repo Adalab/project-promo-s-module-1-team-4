@@ -28,19 +28,22 @@
 }
 
 .header .nav {
-    background-color: var(--light-green);
-    height: 45px;
-    font-size: 15px; 
-    text-align: end;
-    padding: 10px;
+   width: 100%;
+   background-color: var(--light-green);
+   height: 45px;
+   font-size: 15px;
+   padding: 10px;
+   text-align: center;
 }
 
- .menu {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around; 
-   list-style: none;
-}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 1px;
+ }
 
 .container {
    background-image: url(../css/images/foto-adalab-grupo4.jpg);
