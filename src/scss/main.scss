@@ -30,6 +30,7 @@
    justify-content: center;
    text-align: center;
    opacity: 0.9;
+   font-family: var(--font-h);
 }
 .header .title {
   background-color: var(--dark-green);
@@ -38,7 +39,6 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
- 
 }
 
 .header .nav {
