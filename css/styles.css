@@ -16,7 +16,6 @@
     color: var(--white);
     justify-content: center;
     text-align: center;
-    
 }
 .header .title {
   background-color: var(--dark-green);
@@ -25,21 +24,58 @@
   justify-content: center;
   text-align: center;
   padding: 20px;
+ 
 }
 
 .header .nav {
-    background-color: var(--light-green);
-    height: 45px;
-    font-size: 15px; 
-    text-align: end;
-    padding: 10px;
+   width: 100%;
+   background-color: var(--light-green);
+   height: 45px;
+   font-size: 15px;
+   padding: 10px;
+   text-align: center;
+  
 }
 
- .menu {
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 1px;
+ }
+
+.container {
+   background-image: url(../css/images/foto-adalab-grupo4.jpg);
+   height: 310px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   align-items: center;
+   justify-content: center;
    display: flex;
-   flex-direction: row;
-   justify-content: space-around; 
-   list-style: none;
+   
+}
+
+.text-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   position: absolute;
+   font-size: 1, 8rem;
+   color: var(--black);
+   font-family: var(--font-p);
+   margin: 1, 5rem;
+   height: 68px;
+   top: 87%;
+   left: 15px;
+   right: 15px;
+   background-color: var(--white);
+   box-sizing: border-box;
+   width: 282px
 }
 
 .body{
@@ -53,11 +89,8 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-  
-
 }
-
-
+  
 .bio-image{
        
     width: 56.25vw;
@@ -65,7 +98,7 @@
     border-radius: 20px;
     background-image: contain;
     border: solid 5px lightgrey;
-    border-radius: 20px;
+    border-radius: 10px;
     object-fit: cover;
 
 }
@@ -81,10 +114,23 @@
     margin: 30px 15px;
  }
 
-.bio-text {
+ .title-adalabers {
+   color: var(--dark-green);
+   text-align: center;
+   margin: 3rem; 
+   font-size: 2.4rem;
+   text-transform: uppercase;
+   font-family: var(--font-h);
+}
+
+
+.bio{
+
+   display:flex;
+    flex-direction: column;
+    align-items: center;
     font-family: var(--font-p);
-    padding: 30px 15px;
-    text-align: center;
+        text-align: center;
     line-height: 1.5;
    
 }
@@ -93,39 +139,30 @@
 
     font-size: 2rem;
     line-height: 2.25;
-
-  
+    padding: 1rem;
+      
     
  }
-
- .bio-p{
-
-    font-size: 1.6 rem;
-   
-     }
-
 
  .icons{
     display: flex;
     flex-direction: row;
-    padding: 15px 110px 15px 110px;
+   justify-content: space-between;
+    align-content: center;
+    color: var(--dark-grey);
     list-style: none;
-    justify-content: space-between;
-    scale: 2;
-    color: var(--dark-green);
+    margin-top: 15px;
+    margin: bottom 45px;
+    width: 124px;
+    text-align:center;
+    font-size: 2.2rem;
     
  }
 
  .icon{
-   /* display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: center;*/
-    scale: 2;
-
+   color:var(--dark-green);
 
  }
- 
  
 .section-one {
    margin: 3rem 0 3rem 0;
@@ -150,7 +187,7 @@
 
 
 .title-team {
-   color: var(--dark-green);
+   color: var(--light-green);
    text-align: center;
    margin: 0 0 1.5rem 0;
    font-size: 2.4rem;
