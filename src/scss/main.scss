@@ -1,0 +1,245 @@
+/*@import 'core/variables';
+@import 'core/reset';
+@import 'components/code';
+@import 'components/links';
+@import 'layout/page';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'pages/index'; */
+
+:root {
+ font-size: 62.5%;
+ --light-green: #14d9c4;
+ --dark-green: #099d8d;
+ --dark-grey: #54585a;
+ --light-grey: #b8b8b9;
+ --background-grey: #f1f1f1; 
+ --white: #ffffff;
+ --black: #000000;
+ --font-p: 'Open Sans', sans-serif;
+ --font-h: 'Rubik', sans-serif;
+ 
+}
+.header { 
+    width: 100%;
+    color: var(--white);
+    justify-content: center;
+    text-align: center;
+}
+.header .title {
+  background-color: var(--dark-green);
+  height: 60px;
+  font-size: 16px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+.header .nav {
+   width: 100%;
+   background-color: var(--light-green);
+   height: 45px;
+   font-size: 15px;
+   padding: 10px;
+   text-align: center;
+  
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    padding: 1px;
+ }
+
+.container {
+   background-image: url("./assets/images/foto-adalab-grupo4.jpg");
+   height: 310px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   
+}
+
+.text-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   position: absolute;
+   font-size: 1, 8rem;
+   color: var(--black);
+   font-family: var(--font-p);
+   margin: 1, 5rem;
+   height: 68px;
+   top: 87%;
+   left: 15px;
+   right: 15px;
+   background-color: var(--white);
+   box-sizing: border-box;
+   width: 282px
+}
+
+.body{
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.adalabers{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.bio-image{
+       
+    width: 56.25vw;
+    height: 56.25vw;
+    border-radius: 20px;
+    background-image: contain;
+    border: solid 5px lightgrey;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.text-section {
+    color: var(--light-green);
+    text-align: center;
+    font-family: var(--font-h);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.88;
+    font-style: normal;
+    margin: 30px 15px;
+ }
+
+ .title-adalabers {
+   color: var(--dark-green);
+   text-align: center;
+   margin: 3rem; 
+   font-size: 2.4rem;
+   text-transform: uppercase;
+   font-family: var(--font-h);
+}
+
+
+.bio{
+
+   display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-p);
+        text-align: center;
+    line-height: 1.5;
+   
+}
+
+ .bio-h{
+
+    font-size: 2rem;
+    line-height: 2.25;
+    padding: 1rem;
+      
+    
+ }
+
+ .icons{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    align-content: center;
+    color: var(--dark-grey);
+    list-style: none;
+    margin-top: 15px;
+    margin: bottom 45px;
+    width: 124px;
+    text-align:center;
+    font-size: 2.2rem;
+    
+ }
+
+ .icon{
+   color:var(--dark-green);
+
+ }
+ 
+.section-one {
+   margin: 3rem 0 3rem 0;
+  
+}
+
+.rectangle {
+   width: 30px;
+   height: 30px;
+   transform: translate(0, -1.5rem) rotate(45deg);
+   background-color: white;
+   margin: 0 auto;
+}
+
+
+.section-two {
+   background-color: var(--background-grey);
+   font-family: var(--font-h);
+   margin: -30px auto 0 auto;
+   
+}
+
+
+.title-team {
+   color: var(--light-green);
+   text-align: center;
+   margin: 0 0 1.5rem 0;
+   font-size: 2.4rem;
+   text-transform: uppercase;
+   font-family: var(--font-h);
+}
+
+
+.text-p {
+   font-size: 1.6rem;
+   color: var(--dark-grey);
+   font-family: var(--font-p);
+   padding: 0 3rem;
+   text-align: center;
+}
+
+.title-article {
+   color: var(--dark-green);
+   text-align: center;
+   font-size: 2.2rem;
+   padding: 4rem 0 1.5rem 0;
+}
+
+.article-two {
+   padding-bottom: 4.5rem;
+}
+
+@media all and (min-width: 768px) {
+   .prueba {
+      width: 601px;
+      margin: 0 auto; 
+   }
+
+   .title-team {
+      margin: 4.5rem auto 1.5m auto;
+   }
+
+   .section-two {
+      display: flex;
+   }
+
+   .paragraphs {
+      margin: 1.5rem auto 6rem auto;
+   }
+
+}
