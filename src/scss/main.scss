@@ -21,7 +21,11 @@
  
 }
 .header { 
+    padding: fixed;
     width: 100%;
+    top: 0;
+    z-index: 10;
+    opacity: 0.2;
     color: var(--white);
     justify-content: center;
     text-align: center;
