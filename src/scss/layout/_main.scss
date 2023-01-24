@@ -21,7 +21,7 @@
 .section-two {
     background-color: var(--background-grey);
     font-family: var(--font-h);
-    margin: -30px auto 0 auto;
+    margin: -30px auto 4.5rem auto;
 
 }
 
@@ -29,19 +29,27 @@
 .title-team {
     color: var(--light-green);
     text-align: center;
-    margin: 0 0 1.5rem 0;
+    margin: 6rem 0 1.5rem 0;
     font-size: 2.4rem;
     text-transform: uppercase;
     font-family: var(--font-h);
 }
 
 
-.text-p {
+.text-p{
     font-size: 1.6rem;
     color: var(--dark-grey);
     font-family: var(--font-p);
     padding: 0 3rem;
     text-align: center;
+}
+.text-two{
+    font-size: 1.6rem;
+    color: var(--dark-grey);
+    font-family: var(--font-p);
+    padding: 0 3rem;
+    text-align: center;
+
 }
 
 
@@ -52,33 +60,40 @@
     padding: 4rem 0 1.5rem 0;
 }
 
-.article-two {
+.two{
     padding-bottom: 4.5rem;
 }
 
-@media all and (min-width: 768px) {
-    .prueba {
-        width: 601px;
-        margin: 0 auto;
-    }
 
+@media all and (min-width: 768px) {
+    
     .title-team {
         margin: 4.5rem auto 1.5m auto;
     }
 
     .section-two {
         display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
+
 
     .paragraphs {
         margin: 1.5rem auto 6rem auto;
     }
 
+    .text-two {
+        width: 45vw;
+        font-size: 1.6rem;
+        
+    }
+
+    .two {
+
+    }
+
 }
 
-@media all and (min-width: 768px) {
-
-}
 @media all and (min-width: 1200px) {
     
 }
