@@ -33,7 +33,7 @@
 }
 
 
-@media all and (min-width: 768px) { /*sin acabar*/
+@media all and (min-width: 768px) {
   .footer {
     display: flex;
     flex-direction: row;
@@ -43,14 +43,6 @@
     height: 170px;
     border: solid 1px #b8b8b9;
     background-color: #ffffff;
-  }
-
-  .copy {
-    font-family: var(--font-p);
-    color: var(--light-grey);
-    font-size: 1.4rem;
-    text-align: center;
-    padding-top: 30px;
   }
 }
 
