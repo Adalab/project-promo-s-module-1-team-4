@@ -91,7 +91,7 @@
     align-items: center;
 }
   
-.bio-image{
+.adalabers_image{
        
     width: 56.25vw;
     height: 56.25vw;
@@ -114,7 +114,7 @@
     margin: 30px 15px;
  }
 
- .title-adalabers {
+ .adalabers__title {
    color: var(--dark-green);
    text-align: center;
    margin: 3rem; 
@@ -196,7 +196,7 @@
 }
 
 
-.text-p {
+.bio__text {
    font-size: 1.6rem;
    color: var(--dark-grey);
    font-family: var(--font-p);
