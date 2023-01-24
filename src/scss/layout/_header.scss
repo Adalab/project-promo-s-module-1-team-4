@@ -4,6 +4,8 @@
   top: 0;
   z-index: 10;
   color: var(--white);
+  display: flex;
+  flex-direction: colum;
   justify-content: center;
   text-align: center;
   opacity: 0.9;
@@ -72,6 +74,11 @@
 }
 
 @media all and (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
     
      } 
 
