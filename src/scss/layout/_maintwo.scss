@@ -1,0 +1,82 @@
+.adalabers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bio-image {
+
+    width: 56.25vw;
+    height: 56.25vw;
+    border-radius: 20px;
+    background-image: contain;
+    border: solid 5px lightgrey;
+    border-radius: 10px;
+    object-fit: cover;
+
+}
+
+.text-section {
+    color: var(--light-green);
+    text-align: center;
+    font-family: var(--font-h);
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.88;
+    font-style: normal;
+    margin: 30px 15px;
+}
+
+.title-adalabers {
+    color: var(--dark-green);
+    text-align: center;
+    margin: 3rem;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: var(--font-h);
+}
+
+
+.bio {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--font-p);
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+.bio-h {
+
+    font-size: 2rem;
+    line-height: 2.25;
+    padding: 1rem;
+
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    color: var(--dark-grey);
+    list-style: none;
+    margin-top: 15px;
+    margin: bottom 45px;
+    width: 124px;
+    text-align: center;
+    font-size: 2.2rem;
+
+}
+
+.icon {
+    color: var(--dark-green);
+
+}
+
+@media all and (min-width: 768px) {}
+
+@media all and (min-width: 1200px) {}
