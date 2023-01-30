@@ -2,10 +2,10 @@
 
     display: flex;
     flex-direction: column;
-    margin: auto 15px;
+    margin: 0 auto;
 
     @media all and (min-width: 768px) {
-            margin: 0 163px;
+            margin: 0 auto;
             max-width: 442px;
         }
 
@@ -80,18 +80,30 @@
     opacity: 1;
 
     @media all and (min-width: 1200px) {
-        max-width: 395px;
+        width: 395px;
     }
 }
 
-.prueba {
+
+}
+
+.div {
+    @media all and (min-width: 1200px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+
+}
+.telefono {
     @media all and (min-width: 1200px) {
             max-width: 162px;
-            
         }
 }
 
-}
+
+
 
 .span {
     color: var(--light-green);
@@ -105,4 +117,10 @@
     border: none;
     color: white;
     text-transform: uppercase;
+
+    @media all and (min-width: 768px) {
+        width: 278px;
+        align-self: flex-end;
+    }
+
 }
