@@ -82,8 +82,12 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .footer {
     height: 161px;
+  }
+ 
+  .adalab {
+    padding-left: 125px;
   }
 }

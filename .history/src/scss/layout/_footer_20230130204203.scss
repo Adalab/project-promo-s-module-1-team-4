@@ -6,7 +6,9 @@
   height: 250px;
   border: solid 1px #b8b8b9;
   background-color: #ffffff;
-}
+  
+} 
+
 
 .copy {
   font-family: var(--font-p);
@@ -14,29 +16,26 @@
   font-size: 1.4rem;
   text-align: center;
   padding-top: 30px;
-  justify-content: center;
-  align-content: center;
+ 
 }
 
 .footer-menu {
   list-style-type: none;
+  color: var(--dark-grey);
   font-family: var(--font-p);
   font-size: 1.4rem;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 30px;
   opacity: 75%;
-}
-
-.a {
-  text-decoration: none;
-  color: var(--dark-grey);
+  justify-content: center;
 }
 
 .adalab-logo {
   width: 115.9px;
   height: auto;
 }
+
 
 @media all and (min-width: 768px) {
   .footer {
@@ -66,10 +65,11 @@
     padding-top: 50px;
     padding-right: 50px;
     line-height: 30px;
+    
   }
-
   .li {
     text-align: right;
+
   }
 
   .adalab {
@@ -82,8 +82,22 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .footer {
     height: 161px;
   }
+} 
+.copy {
+  padding-left: 135px;
+}
+
+.footer-nav {
+  padding-right: 138px;
+  
+  
+}
+
+.adalab {
+  padding-left: 125px;
+  
 }

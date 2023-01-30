@@ -8,6 +8,7 @@
   background-color: #ffffff;
 }
 
+
 .copy {
   font-family: var(--font-p);
   color: var(--light-grey);
@@ -28,7 +29,7 @@
   opacity: 75%;
 }
 
-.a {
+a {
   text-decoration: none;
   color: var(--dark-grey);
 }
@@ -37,6 +38,7 @@
   width: 115.9px;
   height: auto;
 }
+
 
 @media all and (min-width: 768px) {
   .footer {
@@ -66,10 +68,11 @@
     padding-top: 50px;
     padding-right: 50px;
     line-height: 30px;
+    
   }
-
   .li {
     text-align: right;
+
   }
 
   .adalab {
@@ -82,8 +85,14 @@
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .footer {
     height: 161px;
+  }
+ 
+
+  .adalab {
+    padding-left: 125px;
+    
   }
 }

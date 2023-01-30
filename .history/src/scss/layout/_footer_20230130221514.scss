@@ -77,13 +77,17 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    padding-left: 35px;
+    padding-left: 10px;
     padding-top: 15px;
   }
 }
 
-@media all and (min-width: 1200px) {
+@media all and (min-width: 768px) {
   .footer {
     height: 161px;
+  }
+ 
+  .adalab {
+    padding-left: 125px;
   }
 }
