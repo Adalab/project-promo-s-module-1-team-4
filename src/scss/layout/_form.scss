@@ -1,0 +1,41 @@
+.main__contact{
+
+    display: flex;
+    flex-direction: column;
+
+    &__text{
+    
+    font-size: 1.6rem;
+    color: var(--dark-grey);
+    font-family: var(--font-p);
+    text-align: center;
+    margin: auto 35px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+
+    }
+
+    &__small {
+        
+        font-size: 1.2rem;
+        color: var(--dark-grey);
+        font-family: var(--font-p);
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+
+        &__color {
+            color: var(--dark-green);
+
+        }
+
+    }
+
+    &__form{
+
+    
+
+
+    }
+
+}
