@@ -89,13 +89,22 @@
         
     }
 
+    .text-p {
+        max-width: 678px;
+        margin: 0 auto;
+    }
+
 
 }
 
 @media all and (min-width: 1200px) {
     .text-p {
         max-width: 60rem;
-        display: flex;
-        justify-content: center;
     }
+
+         .text-two {
+            max-width: 439px;
+             font-size: 1.6rem;
+    
+         }
 }
