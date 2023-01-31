@@ -2,7 +2,16 @@
 
     display: flex;
     flex-direction: column;
-    margin: auto 35px;
+    margin: auto 15px;
+
+    @media all and (min-width: 768px) {
+            margin: 0 163px;
+            max-width: 442px;
+        }
+
+          @media all and (min-width: 1200px) {
+              max-width: 600px;
+          }
 
     &__text{
     
@@ -10,9 +19,8 @@
     color: var(--dark-grey);
     font-family: var(--font-p);
     text-align: center;
-    
     line-height: 1.5;
-    margin-bottom: 38px;
+    margin: 1.5rem 3.8rem 3.8rem 3.8rem;
 
     }
 
@@ -40,6 +48,11 @@
     color: var(--dark-grey);
     font-family: var(--font-p);
     text-align: left;
+    margin: 5.8rem 1.5rem 6rem 1.5rem;
+
+    @media all and (min-width: 768px) {
+      
+    }
 
     }
 
@@ -51,3 +64,36 @@
 
 }
 
+.prueba {
+    @media all and (min-width: 1200px) {
+            max-width: 162px;
+            
+        }
+}
+
+.span {
+    color: var(--light-green);
+}
+
+.submit {
+    background-color: var(--dark-green);
+    border-radius: 4px;
+    height: 4.5rem;
+    margin-top: 3rem;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.big {
+    height: 10.5rem;
+    
+}
+
+.strong {
+    opacity: 1;
+
+    @media all and (min-width: 1200px) {
+        max-width: 395px;
+    }
+}

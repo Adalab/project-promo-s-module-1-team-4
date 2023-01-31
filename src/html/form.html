@@ -32,51 +32,32 @@
       <small class="main__contact__small"
         >Todos los campos marcados con
         <span class="main__contact__small__color">*</span> son
-        obligatorios</small
-      >
+        obligatorios</small>
 
-      <form
+      <form  class="main__contact__form" 
         method="get"
-        action="https://dev.adalab.es/api/form"
-        class="main__contact__form"
-      >
+        action="https://dev.adalab.es/api/form">
+      
         <label class="input__label" for="nombre">
-          <p>Nombre completo <span>*</span></p>
-          <input
-            id="nombre"
-            name="nombre"
-            type="text"
-            placeholder="Nombre..."
-            required
-          />
+          <p>Nombre completo <span class="span">*</span></p>
+          <input class="input__label--input" id="nombre" name="nombre" type="text" placeholder="Nombre..." required />
         </label>
-        <label class="input__label" for="email">
-          Email
-          <span>*</span>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="nombre.apellidos@mail.com"
-            required
-          />
+
+        <label class="input__label" for="email"> <p>Email<span class="span">*</span></p>
+          <input class="input__label--input strong" id="email" name="email" type="email" placeholder="nombre.apellidos@mail.com" required />
         </label>
-        <label class="input__label" for="tlf">
-          Teléfono
-          <input id="tlf" name="tlf" type="tel" placeholder="Ej. 123456789" />
+
+
+        <label class="input__label " for="tlf">Teléfono
+          <input class="input__label--input prueba" id="tlf" name="tlf" type="tel" placeholder="Ej. 123456789" />
         </label>
-        <label class="input__label" for="tlf">
-          Mensaje
-          <span>*</span>
-          <input
-            id="comments"
-            name="comments"
-            type="textarea"
-            placeholder="¿Qué necesitas?"
-            rows="3"
-          />
+
+        <label class="input__label" for="tlf"> <p>Mensaje <span class="span">*</span></p>
+          <input class="input__label--input big" id="comments" name="comments" type="textarea" placeholder="¿Qué necesitas?" rows="3"  />
         </label>
-        <input type="submit" value="Enviar" />
+
+        <input class="submit" type="submit" value="Enviar" />
+
       </form>
     </main>
 
